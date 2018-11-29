@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="scalatest-build"
+		revision="0.1-SNAPSHOT"
+		extra-scalaVersion="2.10"
+		extra-sbtVersion="0.13"
+		conf="compile"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20170727143841"/>
+	<dependencies>
+		<module organisation="dl.bintray.com/typesafe/ivy-releases/com.typesafe.sbteclipse" name="sbteclipse-plugin">
+			<revision name="2.1.0" error="not found" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" conf="default(compile)" position="-1">
+				<caller organisation="default" name="scalatest-build" conf="compile" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="0.1-SNAPSHOT" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.sbteclipse" name="sbteclipse-plugin">
+			<revision name="2.1.0" error="not found" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" conf="default(compile)" position="-1">
+				<caller organisation="default" name="scalatest-build" conf="compile" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="0.1-SNAPSHOT" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

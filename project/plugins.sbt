@@ -1,0 +1,1 @@
+addSbtPlugin("dl.bintray.com/typesafe/ivy-releases/com.typesafe.sbteclipse" % "sbteclipse-plugin" % "2.1.0")

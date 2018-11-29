@@ -1,0 +1,3 @@
+quit
+sys.exit()
+sys.quit()
